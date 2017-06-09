@@ -1,0 +1,80 @@
+ID,Title,Section,,,,,Smoke ,Sanity
+C5385635,Verify the new policy page has Preserve Content tab when you select Box,#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385636,"Verify there is a tex tbox with Enter ""folder path"" in new policy page under Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385637,"Verify there is a drop down list with all 4 options i.e. Move, Copy, No Action, Move with tombstone",#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385632,Make a policy which moves the file to quarantine when matches,#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385633,Make a policy which copies the file to quarantine when matches,#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385634,Make a policy which moves the file with tombstone when matches,#42458 - Box Securlet: File Quarantine support,,,,,Yes,Yes
+C5385643,"Verify when move is selected, content IQ profile is required message appears under Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385644,"Verify when move with tombstone is selected, content IQ profile is required message appears under Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385645,"Verify when copy is selected, no message for content IQ profile is required appears under Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385646,"Verify if Preserve Content has invalid folder path, error message appears over Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385647,Verify  Response template selection is mandatory with preserve content policy appears if Response Message Template is not selected,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385648,"Verify while making a new response template, there is a tab for Preserve Content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385649,"Verify two sub-tabs inside Preserve Content , Tombstone File and Copied/Moved File",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5386357,Verify original owner of files after file is quarantined,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5386358,Verify original owner of files after file is restored,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611219,"make a policy for move (disabled). upload a file matching policy, enable the policy and verify it detects the file n moves it",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611220,"Make a copy policy with specific file name, Upload the file and view it copied to preserve content, Edit the file and re-upload it and verify its content in preserved content updated",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611221,"Upload the same file again and again, verify its version in copied folder",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611222,"Upload file name with quotes e.g ""ABC"" and verify it is detected by policy and CIQ",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611223,Verify log in button in mail taking to dashboard,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611224,Verify timezone set in file name is w.r.t Settings,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611225,"specify a file type in CIQ Profile and upload a file which does not match the CIQ profile, and view the policy is not triggered",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611226,Verify original owner name in case of file copied due to policy violation,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611227,View a copied/moved file in the box app,#42458 - Box Securlet: File Quarantine support,,,,,,
+C5611228,"Edit a copied file and try and restore it, verify file is restored with updated content",#42458 - Box Securlet: File Quarantine support,,,,,,
+C5385683,Upload a file/share it which matches the policy,Move,,,,,Yes,
+C5385684,Verify activity log for policy match for moving a file,Move,,,,,,Yes
+C5385685,Verify the folder specified in policy is created on box,Move,,,,,,Yes
+C5385686,Verify the folder has file/files which matched the policy,Move,,,,,,
+C5385687,Verify if no folder is specified then file is saved to the root folder,Move,,,,,,Yes
+C5611172,Move a file with special characters in its name and verify their move to quarantine tab,Move,,,,,,Yes
+C5611857,Verify file in qurantine tab of unexposed content tab,Move,,,,,,Yes
+C5385677,Upload a file/share it which matches the policy,Copy,,,,,,
+C5385678,Verify activity log for policy match for copying a file,Copy,,,,,,
+C5385679,Verify the folder specified in policy is created on box,Copy,,,,,,
+C5385680,Verify the folder has file/files which matched the policy,Copy,,,,,,
+C5385681,Verify if no folder is specified then file is saved to the root folder,Copy,,,,,,
+C5385682,Verify the files copied are available at original location too,Copy,,,,,,Yes
+C5611173,Move a file with special characters in its name and verify their copy to quarantine tab,Copy,,,,,Yes,Yes
+C5611858,Verify file in preserved copies tab of unexposed content,Copy,,,,,Yes,Yes
+C5385689,Verify Unexposed files tab has Quarantine tab,Restore,,,,,,
+C5385690,Verify Only files moved can be restored back,Restore,,,,,,
+C5385691,Verify quarantine has all the files moved,Restore,,,,,,
+C5385692,Verify there is a restore button,Restore,,,,,,
+C5385693,Verify the files are restored at original location,Restore,,,,,,Yes
+C5385694,"In case the original folder is deleted, files wont be restored",Restore,,,,,,
+C5385695,"In this case make sure, files are kept in quarantine",Restore,,,,,,
+C5611167,Try batch restore by selecting multiple files and verify the action,Restore,,,,,,
+C5611174,Check the owner name after restore,Restore,,,,,,
+C5385919,Make sure file is restored to original position,Restore,,,,,,
+C5385920,Verify before restoring the sharing is a/c to parent account,Restore,,,,,,
+C5385921,"Remove sharing of file in box app, and view share permissions in Quarantine tab",Restore,,,,,,Yes
+C5385922,In case of move on files should be only in quarantine tab for restore,Restore,,,,,,
+C5385929,Restore button should be active only when a file is selected,Restore,,,,,,
+C5386356,When a file is restored make sure it has its original name,Restore,,,,,,
+C5385639,Upload a file/share it which matches the policy,Move to Tombstone,,,,,,
+C5385638,Verify activity log for policy match for moving a file,Move to Tombstone,,,,,,
+C5385642,Verify there is a sample file in place of the original file,Move to Tombstone,,,,,Yes,Yes
+C5385650,Verify the original file is removed from the original location,Move to Tombstone,,,,,,Yes
+C5611859,Verify file in quarantine tab of unexposed content,Move to Tombstone,,,,,,
+C5385911,Make a policy with Data Exposure via Securlets on box to move file with exposure type internal,Different types of policies to move,,,,,Yes,
+C5385912,Make a policy with Data Exposure via Securlets on box to move file with exposure type external,Different types of policies to move,,,,,,Yes
+C5385913,Make a policy with Data Exposure via Securlets on box to move file with exposure type Public,Different types of policies to move,,,,,,
+C5385914,Make a policy with Data Exposure via Securlets on box to move file with exposure type unexposed,Different types of policies to move,,,,,,
+C5385927,Make a policy with Data Exposure via Securlets on box to move file with specific File Name,Different types of policies to move,,,,,,
+C5611171,Make sure moved file name is w.r.t the one you set in response template,Different types of policies to move,,,,,,Yes
+C5385915,Make a policy with Data Exposure via Securlets on box to move file with exposure type internal,Different types of policies for copy,,,,,,
+C5385916,Make a policy with Data Exposure via Securlets on box to move file with exposure type external,Different types of policies for copy,,,,,,
+C5385917,Make a policy with Data Exposure via Securlets on box to move file with exposure type Public,Different types of policies for copy,,,,,,
+C5385918,Make a policy with Data Exposure via Securlets on box to move file with exposure type unexposed,Different types of policies for copy,,,,,,
+C5385928,Make a policy with Data Exposure via Securlets on box to move file with specific File Name,Different types of policies for copy,,,,,,
+C5611170,Make sure copied file name is w.r.t the one you set in response template,Different types of policies for copy,,,,,,
+C5385923,Make a policy with Data Exposure via Securlets on box to move file with exposure type internal,Different type of policies for Tombstone,,,,,,
+C5385924,Make a policy with Data Exposure via Securlets on box to move file with exposure type external,Different type of policies for Tombstone,,,,,,
+C5385925,Make a policy with Data Exposure via Securlets on box to move file with exposure type Public,Different type of policies for Tombstone,,,,,,
+C5385926,Make a policy with Data Exposure via Securlets on box to move file with exposure type unexposed,Different type of policies for Tombstone,,,,,,
+C5385930,Make a policy with Data Exposure via Securlets on box to move file with specific File Name,Different type of policies for Tombstone,,,,,,
+C5611168,"Check Content in original file by opening it, it should be the one you set in Response template",Different type of policies for Tombstone,,,,,,
+C5611169,"Check name of original file, it should be w.r.t the one you set in Response template",Different type of policies for Tombstone,,,,,,
